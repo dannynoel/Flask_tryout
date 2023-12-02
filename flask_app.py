@@ -5,7 +5,7 @@ app.run(port=5000, debug=True)
 
 @app.route('/')
 def default():
-    return"<p>Hello World!</p>"
+    return"<begintag>Hello World!<eindtag>"
 
 
     app.run(port=5000, debug=True)
